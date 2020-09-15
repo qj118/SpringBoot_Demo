@@ -7,3 +7,7 @@ Spring Boot 边学边敲——[视频教程](https://www.bilibili.com/video/BV1E
 ### hello-world
 
 体验 Spring Boot 工程的创建过程。
+
+### config
+
+感受配置文件要点
