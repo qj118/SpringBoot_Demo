@@ -155,7 +155,7 @@ public class MyDateUtils {
      * @return
      */
     public static Map<String, String> monthMap(boolean thisYear){
-        Map<String, String> result = new HashMap<>();
+        Map<String, String> result = new LinkedHashMap<>();
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         Date var1 = new Date();
         Calendar var2 = Calendar.getInstance();
@@ -168,10 +168,13 @@ public class MyDateUtils {
             var2.set(2, i); // 设置月份
             var2.set(5, var2.getActualMinimum(5));
             Date var4 = var2.getTime();
+            // System.out.println("var4 " + var4);
             var2.set(5, var2.getActualMaximum(5));
             Date var5 = var2.getTime();
+            // System.out.println("var5 " + var5);
             result.put(format.format(var4), format.format(var5));
         }
+        //System.out.println(result);
         return result;
     }
 
@@ -180,7 +183,7 @@ public class MyDateUtils {
      * @return
      */
     public static Map<Integer, Map<Date, Date>> getQuarterMonth(){
-        Map<Integer, Map<Date, Date>> result = new HashMap<>();
+        Map<Integer, Map<Date, Date>> result = new LinkedHashMap<>();
         Date var1 = new Date();
         Calendar var2 = Calendar.getInstance();
         var2.setTime(var1);

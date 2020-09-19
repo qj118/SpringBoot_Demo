@@ -1,0 +1,11 @@
+2020-09-19 10:46:28.815 === [main] === INFO  === org.demon.log.LogApplicationTests - Starting LogApplicationTests on DESKTOP-9ULFJSI with PID 10536 (started by demon in F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo\log)
+2020-09-19 10:46:28.821 === [main] === DEBUG === org.demon.log.LogApplicationTests - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-19 10:46:28.822 === [main] === INFO  === org.demon.log.LogApplicationTests - The following profiles are active: dev
+2020-09-19 10:46:29.855 === [main] === INFO  === org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-19 10:46:30.139 === [main] === INFO  === org.demon.log.LogApplicationTests - Started LogApplicationTests in 1.701 seconds (JVM running for 3.164)
+2020-09-19 10:46:30.551 === [main] === TRACE === org.demon.log.LogApplicationTests - [trace]
+2020-09-19 10:46:30.551 === [main] === DEBUG === org.demon.log.LogApplicationTests - [debug]
+2020-09-19 10:46:30.551 === [main] === INFO  === org.demon.log.LogApplicationTests - [info]
+2020-09-19 10:46:30.551 === [main] === WARN  === org.demon.log.LogApplicationTests - [warn]
+2020-09-19 10:46:30.551 === [main] === ERROR === org.demon.log.LogApplicationTests - [error]
+2020-09-19 10:46:30.568 === [SpringContextShutdownHook] === INFO  === org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

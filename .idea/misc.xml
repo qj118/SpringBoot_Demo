@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/log/pom.xml" />
       </list>
     </option>
   </component>

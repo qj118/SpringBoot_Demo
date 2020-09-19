@@ -11,3 +11,7 @@ Spring Boot 边学边敲——[视频教程](https://www.bilibili.com/video/BV1E
 ### config
 
 感受配置文件要点
+
+### log
+
+spring boot 日志框架的简单使用。

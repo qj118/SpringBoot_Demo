@@ -1,0 +1,9 @@
+2020-09-19 10:15:41.460 [ main ] - [ INFO  ] [ org.demon.log.LogApplication : 55 ] - Starting LogApplication on DESKTOP-9ULFJSI with PID 2756 (F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo\log\target\classes started by demon in F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo)
+2020-09-19 10:15:41.462 [ main ] - [ DEBUG ] [ org.demon.log.LogApplication : 56 ] - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-19 10:15:41.462 [ main ] - [ INFO  ] [ org.demon.log.LogApplication : 655 ] - The following profiles are active: dev
+2020-09-19 10:15:42.118 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-19 10:15:42.119 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-09-19 10:15:42.119 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-19 10:15:42.275 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-09-19 10:15:42.486 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-19 10:15:42.719 [ main ] - [ INFO  ] [ org.demon.log.LogApplication : 61 ] - Started LogApplication in 1.529 seconds (JVM running for 2.309)

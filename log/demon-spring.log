@@ -1,0 +1,27 @@
+2020-09-19 09:44:31.409 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 55 ] - Starting LogApplicationTests on DESKTOP-9ULFJSI with PID 14464 (started by demon in F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo\log)
+2020-09-19 09:44:31.411 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 56 ] - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-19 09:44:31.412 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-09-19 09:44:32.429 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 61 ] - Started LogApplicationTests in 1.295 seconds (JVM running for 1.924)
+2020-09-19 09:44:32.696 [ main ] - [ TRACE ] [ org.demon.log.LogApplicationTests : 16 ] - [trace]
+2020-09-19 09:44:32.698 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 17 ] - [debug]
+2020-09-19 09:44:32.699 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 18 ] - [info]
+2020-09-19 09:44:32.699 [ main ] - [ WARN  ] [ org.demon.log.LogApplicationTests : 19 ] - [warn]
+2020-09-19 09:44:32.699 [ main ] - [ ERROR ] [ org.demon.log.LogApplicationTests : 20 ] - [error]
+2020-09-19 10:16:20.188 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 55 ] - Starting LogApplicationTests on DESKTOP-9ULFJSI with PID 18840 (started by demon in F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo\log)
+2020-09-19 10:16:20.189 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 56 ] - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-19 10:16:20.190 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-09-19 10:16:21.227 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 61 ] - Started LogApplicationTests in 1.332 seconds (JVM running for 1.961)
+2020-09-19 10:16:21.500 [ main ] - [ TRACE ] [ org.demon.log.LogApplicationTests : 16 ] - [trace]
+2020-09-19 10:16:21.501 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 17 ] - [debug]
+2020-09-19 10:16:21.501 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 18 ] - [info]
+2020-09-19 10:16:21.501 [ main ] - [ WARN  ] [ org.demon.log.LogApplicationTests : 19 ] - [warn]
+2020-09-19 10:16:21.501 [ main ] - [ ERROR ] [ org.demon.log.LogApplicationTests : 20 ] - [error]
+2020-09-19 10:16:58.345 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 55 ] - Starting LogApplicationTests on DESKTOP-9ULFJSI with PID 19776 (started by demon in F:\MyProjects\IDEAProjects\Spring-Boot-Test\SpringBoot_Demo\log)
+2020-09-19 10:16:58.346 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 56 ] - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-19 10:16:58.347 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 655 ] - The following profiles are active: dev
+2020-09-19 10:16:59.346 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 61 ] - Started LogApplicationTests in 1.294 seconds (JVM running for 1.957)
+2020-09-19 10:16:59.621 [ main ] - [ TRACE ] [ org.demon.log.LogApplicationTests : 16 ] - [trace]
+2020-09-19 10:16:59.621 [ main ] - [ DEBUG ] [ org.demon.log.LogApplicationTests : 17 ] - [debug]
+2020-09-19 10:16:59.621 [ main ] - [ INFO  ] [ org.demon.log.LogApplicationTests : 18 ] - [info]
+2020-09-19 10:16:59.621 [ main ] - [ WARN  ] [ org.demon.log.LogApplicationTests : 19 ] - [warn]
+2020-09-19 10:16:59.621 [ main ] - [ ERROR ] [ org.demon.log.LogApplicationTests : 20 ] - [error]
