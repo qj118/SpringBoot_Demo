@@ -33,4 +33,8 @@ spring boot 日志框架的简单使用。
     - json 定制
     - 自适应
 6. servlet三大组件注册
+
+## web-jsp
+
+将工程打包成 war 包，使用外部而不是内嵌的 tomcat，这样可以完美支持 jsp。
     

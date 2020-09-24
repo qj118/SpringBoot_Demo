@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hello-world" />
         <module name="web_demo" />
+        <module name="web-jsp" />
         <module name="config" />
         <module name="log" />
         <module name="web" />
@@ -18,6 +19,7 @@
       <module name="hello-world" target="13" />
       <module name="log" target="1.8" />
       <module name="web" target="13" />
+      <module name="web-jsp" target="1.8" />
       <module name="web_demo" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="hello-world" options="-parameters" />
       <module name="log" options="-parameters" />
       <module name="web" options="-parameters" />
+      <module name="web-jsp" options="-parameters" />
       <module name="web_demo" options="-parameters" />
     </option>
   </component>
