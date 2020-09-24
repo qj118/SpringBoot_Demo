@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+</head>
+<body>
+<h1>成功！！！</h1>
+<div th:text="${welcome}">这里显示欢迎信息。</div>
+<hr/>
+<div th:text="${hello}"></div>
+<div th:utext="${hello}"></div>
+<hr/>
+<!-- 每次遍历都会生成当前标签，th:text 的对象是迭代器对象 -->
+<h3 th:text="${idol}" th:each="idol:${idols}"></h3>
+<hr/>
+<h3>
+    <!-- 可以在文本区域，使用 [[]] 代替 th:text 属性 -->
+    <span th:each="idol:${idols}"> [[${idol}]] </span>
+    <br/>
+    <!-- 可以在文本区域，使用 [()] 代替 th:utext 属性 -->
+    <span th:each="idol:${idols}"> [(${idol})] </span>
+</h3>
+</body>
+</html>

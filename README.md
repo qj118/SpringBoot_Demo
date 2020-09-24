@@ -15,3 +15,22 @@ Spring Boot 边学边敲——[视频教程](https://www.bilibili.com/video/BV1E
 ### log
 
 spring boot 日志框架的简单使用。
+
+### web
+
+主要涉及的知识点：
+1. 静态资源的引入和管理
+2. thymeleaf 的简单使用
+    - 循环
+    - 片段抽取及引用
+    - 自定义属性
+3. 国际化
+    - 切换浏览器语言
+    - 超链接切换
+4. Restful 风格的增删改查
+5. 异常处理
+    - 页面定制
+    - json 定制
+    - 自适应
+6. servlet三大组件注册
+    

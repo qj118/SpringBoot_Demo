@@ -21,13 +21,13 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
 				<!-- logback 切换为 log4j 需要排除 -->
-<!--				<exclusion>-->
-<!--					<groupId>ch.qos.logback</groupId>-->
-<!--					<artifactId>logback-classic</artifactId>-->
-<!--				</exclusion>-->
+				<!--<exclusion>-->
+				<!--	<groupId>ch.qos.logback</groupId>-->
+				<!--	<artifactId>logback-classic</artifactId>-->
+				<!--</exclusion>-->
 				<!-- logback 切换为 log4j2 需要排除 -->
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
@@ -37,20 +37,15 @@
 		</dependency>
 
 		<!-- logback 切换 log4j 需要添加 -->
-<!--		<dependency>-->
-<!--			<groupId>org.slf4j</groupId>-->
-<!--			<artifactId>slf4j-log4j12</artifactId>-->
-<!--		</dependency>-->
+		<!--<dependency>-->
+		<!--	<groupId>org.slf4j</groupId>-->
+		<!--	<artifactId>slf4j-log4j12</artifactId>-->
+		<!--</dependency>-->
 
-		<!-- logback 切换 log4j 需要添加 -->
+		<!-- logback 切换 log4j2 需要添加 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
