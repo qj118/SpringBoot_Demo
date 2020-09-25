@@ -34,7 +34,22 @@ spring boot 日志框架的简单使用。
     - 自适应
 6. servlet三大组件注册
 
-## web-jsp
+### web-jsp
 
 将工程打包成 war 包，使用外部而不是内嵌的 tomcat，这样可以完美支持 jsp。
-    
+
+### jdbc
+
+springboot 使用原生 jdbc 对数据库操作。
+
+### druid
+
+将默认数据源换成 druid 数据源，并且简单的实现数据源的监控。
+
+### mybatis
+
+spring boot 整合 mybatis。
+
+### jpa
+
+springboot 整合 Spring Data JPA。
