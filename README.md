@@ -53,3 +53,9 @@ spring boot 整合 mybatis。
 ### jpa
 
 springboot 整合 Spring Data JPA。
+
+### cache
+
+主要涉及：
+ - spring 缓存抽象的注解的使用；
+ - 整合 redis。

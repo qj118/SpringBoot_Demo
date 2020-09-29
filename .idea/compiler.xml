@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cache" />
         <module name="web-jsp" />
         <module name="druid" />
         <module name="log" />
@@ -19,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
+      <module name="cache" target="1.8" />
       <module name="config" target="1.8" />
       <module name="druid" target="1.8" />
       <module name="hello-world" target="13" />
@@ -33,6 +35,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cache" options="-parameters" />
       <module name="config" options="-parameters" />
       <module name="druid" options="-parameters" />
       <module name="hello-world" options="-parameters" />
