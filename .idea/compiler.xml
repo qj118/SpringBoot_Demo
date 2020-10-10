@@ -17,6 +17,7 @@
         <module name="jpa" />
         <module name="web_demo" />
         <module name="config" />
+        <module name="message-amqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13">
@@ -27,6 +28,7 @@
       <module name="jdbc" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="log" target="1.8" />
+      <module name="message-amqp" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="web" target="13" />
       <module name="web-jsp" target="1.8" />
@@ -42,6 +44,7 @@
       <module name="jdbc" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="log" options="-parameters" />
+      <module name="message-amqp" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="web" options="-parameters" />
       <module name="web-jsp" options="-parameters" />

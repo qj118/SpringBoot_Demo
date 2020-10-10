@@ -59,3 +59,7 @@ springboot 整合 Spring Data JPA。
 主要涉及：
  - spring 缓存抽象的注解的使用；
  - 整合 redis。
+ 
+### message-amqp
+
+主要是 springboot 与 rabbitmq 的整合。
