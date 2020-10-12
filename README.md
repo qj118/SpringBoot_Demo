@@ -63,3 +63,8 @@ springboot 整合 Spring Data JPA。
 ### message-amqp
 
 主要是 springboot 与 rabbitmq 的整合。
+
+### search-elastic
+
+主要是 springboot 与 ElasticSearch 的整合。
+ElasticSearch 博大精深，这只是试水而已。
