@@ -13,6 +13,7 @@
         <module name="hello-world" />
         <module name="jdbc" />
         <module name="web_demo" />
+        <module name="task" />
         <module name="web-jsp" />
         <module name="druid" />
         <module name="web" />
@@ -32,6 +33,7 @@
       <module name="message-amqp" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="search-elastic" target="1.8" />
+      <module name="task" target="1.8" />
       <module name="web" target="13" />
       <module name="web-jsp" target="1.8" />
       <module name="web_demo" target="11" />
@@ -49,6 +51,7 @@
       <module name="message-amqp" options="-parameters" />
       <module name="mybatis" options="-parameters" />
       <module name="search-elastic" options="-parameters" />
+      <module name="task" options="-parameters" />
       <module name="web" options="-parameters" />
       <module name="web-jsp" options="-parameters" />
       <module name="web_demo" options="-parameters" />

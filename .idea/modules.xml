@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/message-amqp/message-amqp.iml" filepath="$PROJECT_DIR$/message-amqp/message-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/search-elastic/search-elastic.iml" filepath="$PROJECT_DIR$/search-elastic/search-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-jsp/web-jsp.iml" filepath="$PROJECT_DIR$/web-jsp/web-jsp.iml" />
     </modules>
