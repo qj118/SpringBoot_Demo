@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-hello-world/01-hello-world.iml" filepath="$PROJECT_DIR$/01-hello-world/01-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-config/02-config.iml" filepath="$PROJECT_DIR$/02-config/02-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-log/03-log.iml" filepath="$PROJECT_DIR$/03-log/03-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-web/04-web.iml" filepath="$PROJECT_DIR$/04-web/04-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-web-jsp/04-web-jsp.iml" filepath="$PROJECT_DIR$/04-web-jsp/04-web-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc/05-jdbc.iml" filepath="$PROJECT_DIR$/05-jdbc/05-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc-druid/05-jdbc-druid.iml" filepath="$PROJECT_DIR$/05-jdbc-druid/05-jdbc-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc-jpa/05-jdbc-jpa.iml" filepath="$PROJECT_DIR$/05-jdbc-jpa/05-jdbc-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc-mybatis/05-jdbc-mybatis.iml" filepath="$PROJECT_DIR$/05-jdbc-mybatis/05-jdbc-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-cache/06-cache.iml" filepath="$PROJECT_DIR$/06-cache/06-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-message-amqp/07-message-amqp.iml" filepath="$PROJECT_DIR$/07-message-amqp/07-message-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-search-elastic/08-search-elastic.iml" filepath="$PROJECT_DIR$/08-search-elastic/08-search-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-task/09-task.iml" filepath="$PROJECT_DIR$/09-task/09-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-security/10-security.iml" filepath="$PROJECT_DIR$/10-security/10-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-distributed-dubbo-consumer-user/11-distributed-dubbo-consumer-user.iml" filepath="$PROJECT_DIR$/11-distributed-dubbo-consumer-user/11-distributed-dubbo-consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-distributed-dubbo-provider-ticket/11-distributed-dubbo-provider-ticket.iml" filepath="$PROJECT_DIR$/11-distributed-dubbo-provider-ticket/11-distributed-dubbo-provider-ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-distributed-springcloud-consumer-user/11-distributed-springcloud-consumer-user.iml" filepath="$PROJECT_DIR$/11-distributed-springcloud-consumer-user/11-distributed-springcloud-consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-distributed-springcloud-eureka-server/11-distributed-springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/11-distributed-springcloud-eureka-server/11-distributed-springcloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/11-distributed-springcloud-provider-ticket.iml" filepath="$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/11-distributed-springcloud-provider-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot_Demo.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot_Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/druid/druid.iml" filepath="$PROJECT_DIR$/druid/druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/hello-world/hello-world.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jpa/jpa.iml" filepath="$PROJECT_DIR$/jpa/jpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/log/log.iml" filepath="$PROJECT_DIR$/log/log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/message-amqp/message-amqp.iml" filepath="$PROJECT_DIR$/message-amqp/message-amqp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/search-elastic/search-elastic.iml" filepath="$PROJECT_DIR$/search-elastic/search-elastic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-jsp/web-jsp.iml" filepath="$PROJECT_DIR$/web-jsp/web-jsp.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="web-jsp" />
+          <element id="module-output" name="04-web-jsp" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.4.RELEASE" />
@@ -45,9 +45,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/web-jsp/target/web-jsp-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/04-web-jsp/target/web-jsp-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="web-jsp/web/Web" />
+      <element id="javaee-facet-resources" facet="04-web-jsp/web/Web" />
     </root>
   </artifact>
 </component>

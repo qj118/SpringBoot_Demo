@@ -4,19 +4,19 @@ Spring Boot 边学边敲——[视频教程](https://www.bilibili.com/video/BV1E
 
 ## 模块简介
 
-### hello-world
+### 01-hello-world
 
 体验 Spring Boot 工程的创建过程。
 
-### config
+### 02-config
 
 感受配置文件要点
 
-### log
+### 03-log
 
 spring boot 日志框架的简单使用。
 
-### web
+### 04-web
 
 主要涉及的知识点：
 1. 静态资源的引入和管理
@@ -34,49 +34,49 @@ spring boot 日志框架的简单使用。
     - 自适应
 6. servlet三大组件注册
 
-### web-jsp
+#### 04-web-jsp
 
 将工程打包成 war 包，使用外部而不是内嵌的 tomcat，这样可以完美支持 jsp。
 
-### jdbc
+### 05-jdbc
 
 springboot 使用原生 jdbc 对数据库操作。
 
-### druid
+#### 05-jdbc-druid
 
 将默认数据源换成 druid 数据源，并且简单的实现数据源的监控。
 
-### mybatis
+#### 05-jdbc-mybatis
 
 spring boot 整合 mybatis。
 
-### jpa
+### 05-jdbc-jpa
 
 springboot 整合 Spring Data JPA。
 
-### cache
+### 06-cache
 
 主要涉及：
  - spring 缓存抽象的注解的使用；
  - 整合 redis。
  
-### message-amqp
+### 07-message-amqp
 
 主要是 springboot 与 rabbitmq 的整合。
 
-### search-elastic
+### 08-search-elastic
 
 主要是 springboot 与 ElasticSearch 的整合。
 ElasticSearch 博大精深，这只是试水而已。
 
-### task
+### 09-task
 
 包括：
 - 异步任务
 - 定时任务
 - 邮件任务
 
-### security
+### 10-security
 
 使用 spring security 框架实现：
 - 授权
@@ -84,3 +84,20 @@ ElasticSearch 博大精深，这只是试水而已。
 - 页面定制等
 
 PS.页面来自拷贝
+
+### 11-distributed
+
+整合分布式
+
+#### 11-distributed-dubbo
+
+整合 ZooKeeper + dubbo 包括两部分
+- provider: 11-distributed-dubbo-provider-ticket
+- consumer: 11-distributed-dubbo-consumer-user
+
+#### 11-distributed-springcloud
+
+整合 spring cloud 包括三部分：
+- 注册中心：11-distributed-springcloud-eureka-server
+- provider: 11-distributed-springcloud-provider-ticket
+- consumer: 11-distributed-springcloud-consumer-user

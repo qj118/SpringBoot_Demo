@@ -4,7 +4,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/web-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/04-web-jsp" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,6 +23,25 @@
         <option value="$PROJECT_DIR$/search-elastic/pom.xml" />
         <option value="$PROJECT_DIR$/task/pom.xml" />
         <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/11-distributed-dubbo-provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/01-hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/02-config/pom.xml" />
+        <option value="$PROJECT_DIR$/03-log/pom.xml" />
+        <option value="$PROJECT_DIR$/04-web/pom.xml" />
+        <option value="$PROJECT_DIR$/04-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jdbc-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jdbc-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jdbc-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/06-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/07-message-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/08-search-elastic/pom.xml" />
+        <option value="$PROJECT_DIR$/09-task/pom.xml" />
+        <option value="$PROJECT_DIR$/10-security/pom.xml" />
+        <option value="$PROJECT_DIR$/11-distributed-dubbo-consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/11-distributed-springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/11-distributed-springcloud-consumer-user/pom.xml" />
       </list>
     </option>
   </component>
