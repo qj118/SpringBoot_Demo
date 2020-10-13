@@ -75,3 +75,12 @@ ElasticSearch 博大精深，这只是试水而已。
 - 异步任务
 - 定时任务
 - 邮件任务
+
+### security
+
+使用 spring security 框架实现：
+- 授权
+- 认证
+- 页面定制等
+
+PS.页面来自拷贝
