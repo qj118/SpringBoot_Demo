@@ -105,3 +105,7 @@ PS.页面来自拷贝
 ## 12-hot-deployment
 
 使用 spring-boot-devtools 实现开发热部署
+
+## 13-actuator
+
+使用 spring-boot-starter-actuator 实现监控与管理
