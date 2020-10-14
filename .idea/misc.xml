@@ -42,6 +42,7 @@
         <option value="$PROJECT_DIR$/11-distributed-springcloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/pom.xml" />
         <option value="$PROJECT_DIR$/11-distributed-springcloud-consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/12-hot-deployment/pom.xml" />
       </list>
     </option>
   </component>

@@ -24,6 +24,7 @@
         <module name="07-message-amqp" />
         <module name="09-task" />
         <module name="03-log" />
+        <module name="12-hot-deployment" />
         <module name="05-jdbc-jpa" />
         <module name="04-web-jsp" />
       </profile>
@@ -48,6 +49,7 @@
       <module name="11-distributed-springcloud-consumer-user" target="1.8" />
       <module name="11-distributed-springcloud-eureka-server" target="1.8" />
       <module name="11-distributed-springcloud-provider-ticket" target="1.8" />
+      <module name="12-hot-deployment" target="1.8" />
       <module name="web_demo" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -72,6 +74,7 @@
       <module name="11-distributed-springcloud-consumer-user" options="-parameters" />
       <module name="11-distributed-springcloud-eureka-server" options="-parameters" />
       <module name="11-distributed-springcloud-provider-ticket" options="-parameters" />
+      <module name="12-hot-deployment" options="-parameters" />
       <module name="web_demo" options="-parameters" />
     </option>
   </component>

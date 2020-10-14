@@ -27,6 +27,6 @@ spring:
 #      - classpath:sql/department.sql
 #      - classpath:sql/employee.sql
 mybatis:
-  config-location: classpath:mybatis/mybatis_config.xml
-  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis_config.xml # \u6307\u5B9A mybatis \u5168\u5C40\u914D\u7F6E\u6587\u4EF6
+  mapper-locations: classpath:mybatis/mapper/*.xml # \u6307\u5B9A mybatis mapper \u6620\u5C04\u6587\u4EF6
 

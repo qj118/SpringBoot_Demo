@@ -101,3 +101,7 @@ PS.页面来自拷贝
 - 注册中心：11-distributed-springcloud-eureka-server
 - provider: 11-distributed-springcloud-provider-ticket
 - consumer: 11-distributed-springcloud-consumer-user
+
+## 12-hot-deployment
+
+使用 spring-boot-devtools 实现开发热部署
