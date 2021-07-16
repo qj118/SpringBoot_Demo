@@ -30,11 +30,11 @@
         <module name="04-web-jsp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="13">
-      <module name="01-hello-world" target="13" />
+    <bytecodeTargetLevel target="8">
+      <module name="01-hello-world" target="8" />
       <module name="02-config" target="1.8" />
       <module name="03-log" target="1.8" />
-      <module name="04-web" target="13" />
+      <module name="04-web" target="8" />
       <module name="04-web-jsp" target="1.8" />
       <module name="05-jdbc" target="1.8" />
       <module name="05-jdbc-druid" target="1.8" />
@@ -52,7 +52,6 @@
       <module name="11-distributed-springcloud-provider-ticket" target="1.8" />
       <module name="12-hot-deployment" target="1.8" />
       <module name="13-actuator" target="1.8" />
-      <module name="web_demo" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -78,7 +77,6 @@
       <module name="11-distributed-springcloud-provider-ticket" options="-parameters" />
       <module name="12-hot-deployment" options="-parameters" />
       <module name="13-actuator" options="-parameters" />
-      <module name="web_demo" options="-parameters" />
     </option>
   </component>
 </project>

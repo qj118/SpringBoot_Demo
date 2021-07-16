@@ -6,8 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.util.UrlPathHelper;
 
 @Configuration
 public class MyMvcConfigurer implements WebMvcConfigurer {
@@ -39,6 +41,15 @@ public class MyMvcConfigurer implements WebMvcConfigurer {
                 registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**")
                                                                .excludePathPatterns("/index.html", "/", "/user/login");
             }*/
+
+            // 开启矩阵变量的支持
+            @Override
+            public void configurePathMatch(PathMatchConfigurer configurer) {
+                UrlPathHelper urlPathHelper = new UrlPathHelper();
+                // url 不移除分号
+                urlPathHelper.setRemoveSemicolonContent(false);
+                configurer.setUrlPathHelper(urlPathHelper);
+            }
         };
         return configurer;
     }
