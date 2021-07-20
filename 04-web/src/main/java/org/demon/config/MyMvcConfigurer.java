@@ -1,15 +1,19 @@
 package org.demon.config;
 
+import org.demon.entity.Book;
 import org.demon.resolver.MyLocaleResolver;
 import org.demon.resolver.MyViewResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.convert.converter.Converter;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.util.UrlPathHelper;
+import org.thymeleaf.util.StringUtils;
 
 @Configuration
 public class MyMvcConfigurer implements WebMvcConfigurer {
@@ -49,6 +53,24 @@ public class MyMvcConfigurer implements WebMvcConfigurer {
                 // url 不移除分号
                 urlPathHelper.setRemoveSemicolonContent(false);
                 configurer.setUrlPathHelper(urlPathHelper);
+            }
+
+            @Override
+            public void addFormatters(FormatterRegistry registry) {
+                registry.addConverter(new Converter<String, Book>() {
+                    @Override
+                    public Book convert(String source) {
+                        if(!StringUtils.isEmpty(source)){
+                            Book book = new Book();
+                            // source: 生如逆旅,酒暖春深
+                            String[] split = source.split(",");
+                            book.setBookName(split[0]);
+                            book.setBookAuthor(split[1]);
+                            return book;
+                        }
+                        return null;
+                    }
+                });
             }
         };
         return configurer;
