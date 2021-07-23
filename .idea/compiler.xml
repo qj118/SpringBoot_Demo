@@ -32,7 +32,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="01-hello-world" target="8" />
+      <module name="01-hello-world" target="13" />
       <module name="02-config" target="1.8" />
       <module name="03-log" target="1.8" />
       <module name="04-web" target="8" />

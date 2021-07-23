@@ -2,6 +2,7 @@ package org.demon.controller;
 
 import org.demon.entity.Book;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -37,5 +38,11 @@ public class HelloController {
     public String testPOJO(Book book){
         System.out.println(book);
         return book.toString();
+    }
+
+    @ResponseBody
+    @GetMapping("/book")
+    public Book testResponseBody(){
+        return new Book("生如逆旅", "酒暖春深");
     }
 }
