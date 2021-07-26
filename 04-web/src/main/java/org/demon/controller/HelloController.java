@@ -40,6 +40,11 @@ public class HelloController {
         return book.toString();
     }
 
+    /**
+     * 可根据 MediaType 不同返回 json 或者 xml，
+     * 也可以返回 MediaType 为 xxx-demon 的自定义类型，返回格式为 生如逆旅-酒暖春深
+     * @return
+     */
     @ResponseBody
     @GetMapping("/book")
     public Book testResponseBody(){

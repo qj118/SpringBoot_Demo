@@ -1,5 +1,6 @@
 package org.demon.config;
 
+import org.demon.converter.DemonMessageConverter;
 import org.demon.entity.Book;
 import org.demon.resolver.MyLocaleResolver;
 import org.demon.resolver.MyViewResolver;
@@ -7,13 +8,23 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.http.MediaType;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.web.accept.HeaderContentNegotiationStrategy;
+import org.springframework.web.accept.ParameterContentNegotiationStrategy;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.util.UrlPathHelper;
 import org.thymeleaf.util.StringUtils;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Configuration
 public class MyMvcConfigurer implements WebMvcConfigurer {
@@ -71,6 +82,34 @@ public class MyMvcConfigurer implements WebMvcConfigurer {
                         return null;
                     }
                 });
+            }
+
+            /**
+             * 扩展 MessageConverter
+             * @param converters
+             */
+            @Override
+            public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+                converters.add(new DemonMessageConverter());
+            }
+
+            /**
+             * 自定义内容协商策略
+             * @param configurer
+             */
+            @Override
+            public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+                Map<String, MediaType> mediaTypes = new HashMap<>();
+                mediaTypes.put("json", MediaType.APPLICATION_JSON);
+                mediaTypes.put("xml", MediaType.APPLICATION_XML);
+                mediaTypes.put("demon", MediaType.parseMediaType("application/xxx-demon"));
+                // 基于请求参数的内容协商策略
+                ParameterContentNegotiationStrategy parameterContentNegotiationStrategy = new ParameterContentNegotiationStrategy(mediaTypes);
+                // 基于请求头的内容协商策略
+                HeaderContentNegotiationStrategy headerContentNegotiationStrategy = new HeaderContentNegotiationStrategy();
+
+                configurer.strategies(Arrays.asList(parameterContentNegotiationStrategy, headerContentNegotiationStrategy));
+
             }
         };
         return configurer;
