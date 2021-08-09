@@ -50,12 +50,13 @@ public class MyMvcConfigurer implements WebMvcConfigurer {
                 registry.addViewController("/main.html").setViewName("dashboard");
             }
 
-            /*@Override
-            public void addInterceptors(InterceptorRegistry registry) {
-                // 拦截除了登录页面，登录请求的所有请求
-                registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**")
-                                                               .excludePathPatterns("/index.html", "/", "/user/login");
-            }*/
+//            @Override
+//            public void addInterceptors(InterceptorRegistry registry) {
+//                // 拦截除了登录页面，登录请求的所有请求
+//                // 该拦截器也默认拦截静态资源，需要在 excludePathPatterns 里面添加
+//                registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**")
+//                                                               .excludePathPatterns("/index.html", "/", "/user/login");
+//            }
 
             // 开启矩阵变量的支持
             @Override
