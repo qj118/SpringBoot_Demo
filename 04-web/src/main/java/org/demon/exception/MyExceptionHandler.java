@@ -1,5 +1,6 @@
 package org.demon.exception;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
@@ -11,18 +12,19 @@ import java.util.Map;
  * @ControllerAdvice 是 Controller 增强器，
  * 作用是给 Controller 添加统一的操作或处理。
  */
+@Slf4j
 @ControllerAdvice
 public class MyExceptionHandler {
 
     // 定制 json 数据
-    /*@ResponseBody
-    @ExceptionHandler(UserNotExistException.class)
-    public Map<String, Object> handleException(Exception ex){
-        Map<String, Object> map = new HashMap<>();
-        map.put("code", "user.not_exist");
-        map.put("message", "用户出错了！");
-        return map;
-    }*/
+//    @ResponseBody
+//    @ExceptionHandler(UserNotExistException.class)
+//    public Map<String, Object> handleException(Exception ex){
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("code", "user.not_exist");
+//        map.put("message", "用户出错了！");
+//        return map;
+//    }
 
     /**
      * 只需要请求转发到 /error, BasicErrorController 就会自动处理。
@@ -32,6 +34,8 @@ public class MyExceptionHandler {
      */
     @ExceptionHandler(UserNotExistException.class)
     public String handleException(Exception e, HttpServletRequest request){
+        log.error("异常是:{}", e.getMessage());
+
         Map<String, Object> map = new HashMap<>();
         request.setAttribute("javax.servlet.error.status_code", 500);
         map.put("code", "user.not_exist");
