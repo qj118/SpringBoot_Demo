@@ -4,6 +4,10 @@ spring:
     username: root
     password: 1234567
     driver-class-name: com.mysql.cj.jdbc.Driver
+    # type: com.zaxxer.hikari.HikariDataSource 默认
+  jdbc:
+    template:
+      query-timeout: 3 # JDBCTemplate 查询超时（单位为秒）
 #    schema:
 #      - classpath:department.sql
 #      - classpath:employee.sql

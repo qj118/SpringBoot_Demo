@@ -9,8 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/04-web-jsp/04-web-jsp.iml" filepath="$PROJECT_DIR$/04-web-jsp/04-web-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-jdbc/05-jdbc.iml" filepath="$PROJECT_DIR$/05-jdbc/05-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-jdbc-druid/05-jdbc-druid.iml" filepath="$PROJECT_DIR$/05-jdbc-druid/05-jdbc-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc-druid-starter/05-jdbc-druid-starter.iml" filepath="$PROJECT_DIR$/05-jdbc-druid-starter/05-jdbc-druid-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-jdbc-jpa/05-jdbc-jpa.iml" filepath="$PROJECT_DIR$/05-jdbc-jpa/05-jdbc-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-jdbc-mybatis/05-jdbc-mybatis.iml" filepath="$PROJECT_DIR$/05-jdbc-mybatis/05-jdbc-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc-mybatis-plus/05-jdbc-mybatis-plus.iml" filepath="$PROJECT_DIR$/05-jdbc-mybatis-plus/05-jdbc-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-cache/06-cache.iml" filepath="$PROJECT_DIR$/06-cache/06-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-message-amqp/07-message-amqp.iml" filepath="$PROJECT_DIR$/07-message-amqp/07-message-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-search-elastic/08-search-elastic.iml" filepath="$PROJECT_DIR$/08-search-elastic/08-search-elastic.iml" />

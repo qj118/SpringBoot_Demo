@@ -17,7 +17,7 @@ spring:
     testOnBorrow: false
     testOneReturn: false
     poolPreparedStatements: true
-    # \u914D\u7F6E\u76D1\u63A7 filter, \u4F7F sql \u7EDF\u8BA1\u751F\u6548\uFF0C\u8BB0\u5F97\u5BFC\u5165 log4j \u4F9D\u8D56
+    # 配置监控 filter, 使 sql 统计生效，记得导入 log4j 依赖
     filters: stat, wall, log4j
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
@@ -27,6 +27,8 @@ spring:
 #      - classpath:sql/department.sql
 #      - classpath:sql/employee.sql
 mybatis:
-  config-location: classpath:mybatis/mybatis_config.xml # \u6307\u5B9A mybatis \u5168\u5C40\u914D\u7F6E\u6587\u4EF6
-  mapper-locations: classpath:mybatis/mapper/*.xml # \u6307\u5B9A mybatis mapper \u6620\u5C04\u6587\u4EF6
+  # config-location: classpath:mybatis/mybatis_config.xml # 指定 mybatis 全局配置文件
+  mapper-locations: classpath:mybatis/mapper/*.xml # 指定 mybatis mapper映射文件
+  configuration: # 代替全局配置文件
+    map-underscore-to-camel-case: true # 开启驼峰命名法
 

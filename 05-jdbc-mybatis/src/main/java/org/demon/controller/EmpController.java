@@ -5,6 +5,7 @@ import org.demon.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -20,8 +21,9 @@ public class EmpController {
         return employee;
     }
 
-    // 如：http://localhost:8080/emp?lastName=demon&email=demon@moon.com&gender=0&dId=1
-    @GetMapping("/emp")
+    // 如：http://localhost:8080/emp
+    // 在 body 中的 form-data 中设置，如果采用 json 的话，需要使用 @RequestBody 注解
+    @PostMapping("/emp")
     public Employee addEmp(Employee employee){
         employeeDao.addEmp(employee);
         return employee;

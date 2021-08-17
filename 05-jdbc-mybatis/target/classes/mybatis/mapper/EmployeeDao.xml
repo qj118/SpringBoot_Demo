@@ -5,10 +5,10 @@
         select * from employee where id = #{id}
     </select>
 
-    <insert id="addEmp" parameterType="org.demon.entity.Employee">
+    <insert id="addEmp" parameterType="org.demon.entity.Employee" useGeneratedKeys="true" keyProperty="id">
         insert into employee(lastName, email, gender, d_id) values(#{lastName}, #{email}, #{gender}, #{dId});
-        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
-            select last_insert_id();
-        </selectKey>
+<!--        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">-->
+<!--            select last_insert_id();-->
+<!--        </selectKey>-->
     </insert>
 </mapper>
