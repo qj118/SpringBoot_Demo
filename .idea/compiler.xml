@@ -7,33 +7,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="14-test" />
         <module name="05-jdbc" />
-        <module name="11-distributed-springcloud-provider-ticket" />
         <module name="11-distributed-dubbo-provider-ticket" />
         <module name="11-distributed-springcloud-consumer-user" />
         <module name="05-jdbc-druid-starter" />
         <module name="01-hello-world" />
         <module name="06-cache" />
-        <module name="02-config" />
-        <module name="11-distributed-springcloud-eureka-server" />
         <module name="web_demo" />
         <module name="10-security" />
-        <module name="11-distributed-dubbo-consumer-user" />
         <module name="04-web" />
-        <module name="05-jdbc-mybatis" />
         <module name="08-search-elastic" />
         <module name="05-jdbc-druid" />
-        <module name="07-message-amqp" />
         <module name="09-task" />
-        <module name="03-log" />
         <module name="05-jdbc-mybatis-plus" />
-        <module name="12-hot-deployment" />
         <module name="05-jdbc-jpa" />
         <module name="13-actuator" />
         <module name="04-web-jsp" />
+        <module name="11-distributed-springcloud-provider-ticket" />
+        <module name="02-config" />
+        <module name="11-distributed-springcloud-eureka-server" />
+        <module name="11-distributed-dubbo-consumer-user" />
+        <module name="05-jdbc-mybatis" />
+        <module name="07-message-amqp" />
+        <module name="03-log" />
+        <module name="12-hot-deployment" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
+    <bytecodeTargetLevel target="11">
       <module name="01-hello-world" target="8" />
       <module name="02-config" target="1.8" />
       <module name="03-log" target="1.8" />
@@ -57,6 +58,7 @@
       <module name="11-distributed-springcloud-provider-ticket" target="1.8" />
       <module name="12-hot-deployment" target="1.8" />
       <module name="13-actuator" target="1.8" />
+      <module name="14-test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -84,6 +86,7 @@
       <module name="11-distributed-springcloud-provider-ticket" options="-parameters" />
       <module name="12-hot-deployment" options="-parameters" />
       <module name="13-actuator" options="-parameters" />
+      <module name="14-test" options="-parameters" />
     </option>
   </component>
 </project>
