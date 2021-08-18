@@ -46,9 +46,17 @@ springboot 使用原生 jdbc 对数据库操作。
 
 将默认数据源换成 druid 数据源，并且简单的实现数据源的监控。
 
+#### 05-jdbc-druid-starter
+
+使用 druid-spring-boot-starter, 只需要使用配置就可以完成 druid 对数据源的监控。
+
 #### 05-jdbc-mybatis
 
 spring boot 整合 mybatis。
+
+#### 05-jdbc-mybatis-plus
+
+使用 mybatis-plus-boot-starter, 简化 mybatis 配置。且包含了最近本的增删改查功能，分页等。。。
 
 ### 05-jdbc-jpa
 
@@ -109,3 +117,7 @@ PS.页面来自拷贝
 ## 13-actuator
 
 使用 spring-boot-starter-actuator 实现监控与管理
+
+## 14-test
+
+使用 spring-boot-starter-test junit5 高效单元测试
