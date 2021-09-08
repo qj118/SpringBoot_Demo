@@ -1,0 +1,14 @@
+info:
+  appName: demon-actuator
+  version: 2.7.7
+  # 使用 @@ 获取 pom 文件中的数据
+  mavenProjectName: @project.artifactId@
+  mavenProjectVersion: @project.version@
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8087
+        instance:
+          prefer-ip: true

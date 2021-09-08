@@ -28,6 +28,7 @@
         <module name="02-config" />
         <module name="11-distributed-springcloud-eureka-server" />
         <module name="11-distributed-dubbo-consumer-user" />
+        <module name="13-actuator-admin" />
         <module name="05-jdbc-mybatis" />
         <module name="07-message-amqp" />
         <module name="03-log" />
@@ -58,6 +59,7 @@
       <module name="11-distributed-springcloud-provider-ticket" target="1.8" />
       <module name="12-hot-deployment" target="1.8" />
       <module name="13-actuator" target="1.8" />
+      <module name="13-actuator-admin" target="11" />
       <module name="14-test" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -86,6 +88,7 @@
       <module name="11-distributed-springcloud-provider-ticket" options="-parameters" />
       <module name="12-hot-deployment" options="-parameters" />
       <module name="13-actuator" options="-parameters" />
+      <module name="13-actuator-admin" options="-parameters" />
       <module name="14-test" options="-parameters" />
     </option>
   </component>

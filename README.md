@@ -118,6 +118,10 @@ PS.页面来自拷贝
 
 使用 spring-boot-starter-actuator 实现监控与管理
 
+### 13-actuator-admin
+
+使用 spring-boot-admin-starter-server 来搭建可视化监控平台
+
 ## 14-test
 
 使用 spring-boot-starter-test junit5 高效单元测试

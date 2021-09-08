@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/11-distributed-springcloud-provider-ticket.iml" filepath="$PROJECT_DIR$/11-distributed-springcloud-provider-ticket/11-distributed-springcloud-provider-ticket.iml" />
       <module fileurl="file://$PROJECT_DIR$/12-hot-deployment/12-hot-deployment.iml" filepath="$PROJECT_DIR$/12-hot-deployment/12-hot-deployment.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-actuator/13-actuator.iml" filepath="$PROJECT_DIR$/13-actuator/13-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-actuator-admin/13-actuator-admin.iml" filepath="$PROJECT_DIR$/13-actuator-admin/13-actuator-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/14-test/14-test.iml" filepath="$PROJECT_DIR$/14-test/14-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot_Demo.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot_Demo.iml" />
     </modules>
